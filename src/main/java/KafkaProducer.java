@@ -19,16 +19,18 @@ public class KafkaProducer {
         properties.setProperty("linger.ms", "1");
 
         //Instantiate Producer
-        Producer<String, String> producer =new org.apache.kafka.clients.producer.KafkaProducer<String, String>(properties);
+        Producer<String, String> producer = new org.apache.kafka.clients.producer.KafkaProducer<String, String>(properties);
 
+        //Send messages in for loop
+        for(int key = 0; key < 10; key++) {
+            ProducerRecord<String, String> producerRecord =
+                    new ProducerRecord<String, String>("second_topic", Integer.toString(key),
+                            "message that has key" + Integer.toString(key));
 
-        ProducerRecord<String, String> producerRecord = new ProducerRecord<String, String>("second_topic", "3", "messagetest");
+            producer.send(producerRecord);
+        }
 
-        producer.send(producerRecord);
-
+        //Close producer
         producer.close();
-
-
-        //Topic Name
     }
 }
