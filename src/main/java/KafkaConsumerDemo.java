@@ -11,29 +11,23 @@ public class KafkaConsumerDemo {
         Properties properties = new Properties();
 
         //Kafka Bootstrap Server
-        properties.setProperty("bootstrap.servers", "127.0.0.1:9092");
+        properties.setProperty("bootstrap.servers", KafkaProperties.KAFKA_SERVER_URL + ":" + KafkaProperties.KAFKA_SERVER_PORT);
         properties.setProperty("key.deserializer", StringDeserializer.class.getName());
         properties.setProperty("value.deserializer", StringDeserializer.class.getName());
 
-        properties.setProperty("group.id", "test");
+        properties.setProperty("group.id", KafkaProperties.GROUP_ID);
         properties.setProperty("enable.auto.commit", "true");
-        properties.setProperty("auto.commit.intervals.ms", "1000");
+        properties.setProperty("auto.commit.intervals.ms", KafkaProperties.CONNECTION_TIMEOUT);
         properties.setProperty("auto.offset.reset", "earliest");
 
         //Instantiate Kafka Consumer
         KafkaConsumer<String, String> kafkaConsumer = new KafkaConsumer<String, String>(properties);
-        kafkaConsumer.subscribe(Arrays.asList("second_topic"));
+        kafkaConsumer.subscribe(Arrays.asList(KafkaProperties.TOPIC));
 
         //Retrieve messages from topic
         while(true) {
             ConsumerRecords<String, String> consumerRecords = kafkaConsumer.poll(100);
             for(ConsumerRecord<String, String> consumerRecord : consumerRecords) {
-                //consumerRecord.value();
-                //consumerRecord.key();
-                //consumerRecord.offset();
-                //consumerRecord.partition();
-                //consumerRecord.timestamp();
-
                 System.out.println("Partition: " + consumerRecord.partition() + " Offset: " + consumerRecord.offset()
                 + " Key: " + consumerRecord.partition() + " Value: " + consumerRecord.value());
             }
