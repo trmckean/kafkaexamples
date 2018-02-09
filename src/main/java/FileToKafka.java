@@ -30,7 +30,7 @@ public class FileToKafka {
             BufferedReader bufferedReader = new BufferedReader(new FileReader(fileName));
             String line;
             while((line = bufferedReader.readLine()) != null) {
-                ProducerRecord<String, String> producerRecord = new ProducerRecord<String, String>(KafkaProperties.TOPIC,
+                ProducerRecord<String, String> producerRecord = new ProducerRecord<String, String>(KafkaProperties.TEST_TOPIC,
                         line);
 
                 producer.send(producerRecord);

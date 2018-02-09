@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cf6a7a7-845d-40c1-90b0-9737eaabce20" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/Other Files/TestFile.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/FileToKafka.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FileToKafka.java" afterPath="$PROJECT_DIR$/src/main/java/FileToKafka.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/KafkaProperties.java" afterPath="$PROJECT_DIR$/src/main/java/KafkaProperties.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="KafkaConsumerDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KafkaConsumerDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/KafkaConsumerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="336">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1164#1180#0" expanded="true" />
@@ -33,20 +33,20 @@
       <file leaf-file-name="KafkaProperties.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/KafkaProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="45">
+              <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileToKafka.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FileToKafka.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/FileToKafka.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+            <state relative-caret-position="318">
+              <caret line="32" column="120" lean-forward="false" selection-start-line="32" selection-start-column="120" selection-end-line="32" selection-end-column="120" />
               <folding>
-                <element signature="e#0#2224#0" expanded="true" />
+                <element signature="e#0#2229#0" expanded="true" />
                 <element signature="imports" expanded="true" />
                 <element signature="e#723#739#0" expanded="true" />
                 <element signature="e#1220#1236#0" expanded="true" />
@@ -99,10 +99,10 @@
         <option value="$PROJECT_DIR$/src/main/java/KafkaProducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/KafkaProducerDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/KafkaConsumerDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/KafkaProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/FileToKafkaDemo/KafkaProducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/FiletoKafka.java" />
         <option value="$PROJECT_DIR$/src/main/Other Files/TestFile.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/KafkaProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/FileToKafka.java" />
       </list>
     </option>
@@ -121,9 +121,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="399" />
     <option name="y" value="23" />
-    <option name="width" value="720" />
+    <option name="width" value="1119" />
     <option name="height" value="832" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -381,7 +380,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518070434542</updated>
-      <workItem from="1518070437661" duration="6068000" />
+      <workItem from="1518070437661" duration="6466000" />
     </task>
     <task id="LOCAL-00001" summary="Able to send messages to Topic on Kafka.">
       <created>1518071486543</created>
@@ -411,14 +410,21 @@
       <option name="project" value="LOCAL" />
       <updated>1518158525511</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Working File to Kafka program">
+      <created>1518160176680</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1518160176680</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6068000" />
+    <option name="totallyTimeSpent" value="6466000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="399" y="23" width="720" height="832" extended-state="0" />
+    <frame x="0" y="23" width="1119" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -434,7 +440,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3638889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23413762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -461,7 +467,8 @@
     <MESSAGE value="Send multiple messages to Kafka as producer." />
     <MESSAGE value="Created Kafka consumer, succesfully reading messages from Kafka." />
     <MESSAGE value="Added Kafka properties class for abstraction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Kafka properties class for abstraction" />
+    <MESSAGE value="Working File to Kafka program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working File to Kafka program" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -510,14 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/KafkaProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/KafkaProducerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -526,19 +525,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#958#974#0" expanded="true" />
             <element signature="e#1167#1183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FileToKafka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#2224#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#723#739#0" expanded="true" />
-            <element signature="e#1220#1236#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -553,11 +539,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/KafkaConsumerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="336">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1164#1180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/KafkaProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FileToKafka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="32" column="120" lean-forward="false" selection-start-line="32" selection-start-column="120" selection-end-line="32" selection-end-column="120" />
+          <folding>
+            <element signature="e#0#2229#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#723#739#0" expanded="true" />
+            <element signature="e#1220#1236#0" expanded="true" />
           </folding>
         </state>
       </provider>
